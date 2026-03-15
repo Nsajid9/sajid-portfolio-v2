@@ -1,4 +1,5 @@
 import * as THREE from "three";
+import React from "react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { setCharTimeline, setAllTimeline } from "../../utils/GsapScroll";
 
@@ -9,7 +10,7 @@ export default function handleResize(
   character: THREE.Object3D
 ) {
   if (!canvasDiv.current) return;
-  let canvas3d = canvasDiv.current.getBoundingClientRect();
+  const canvas3d = canvasDiv.current.getBoundingClientRect();
   const width = canvas3d.width;
   const height = canvas3d.height;
   renderer.setSize(width, height);
