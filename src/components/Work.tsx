@@ -17,10 +17,10 @@ const projects = [
     image: "/images/islamic_app.png",
   },
   {
-    title: "Bond Cancellation",
-    category: "Import-Export Automation",
-    tools: "Angular, Next.js, NestJS, Workflows",
-    image: "/images/bond.png",
+    title: "EquityRadar",
+    category: "Stock Market Tracker",
+    tools: "Next.js, TypeScript, Tailwind CSS, Yahoo Finance API, SMA Charts, AI Insights",
+    image: "/images/equityradar.png",
   },
   {
     title: "Sapphire",
