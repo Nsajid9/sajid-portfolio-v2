@@ -6,9 +6,8 @@ A modern **interactive developer portfolio** built with **React, TypeScript, and
 
 ## 🌐 Live Demo
 
-> Add your deployed link here (Vercel / Netlify)
+<img width="1902" height="911" alt="image" src="https://github.com/user-attachments/assets/b6ea0b66-93ca-4428-880e-ead32a00d0d6" />
 
-https://your-portfolio-link.com
 
 ---
 
