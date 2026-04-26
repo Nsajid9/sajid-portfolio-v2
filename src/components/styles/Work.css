@@ -41,10 +41,11 @@
 }
 
 .carousel-slide {
-  min-width: 100%;
+  width: 100%;
   flex-shrink: 0;
   box-sizing: border-box;
   padding: 50px 0;
+  overflow: hidden;
 }
 
 .carousel-content {
@@ -59,6 +60,7 @@
   display: flex;
   gap: 30px;
   align-items: flex-start;
+  min-width: 0;
 }
 
 .carousel-number h3 {
@@ -112,6 +114,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  min-width: 0;
 }
 
 /* ── Navigation Arrows ── */
@@ -184,11 +187,16 @@
 .work-image {
   display: flex;
   width: 100%;
-  justify-content: center;
+  justify-content: flex-end;
+  min-width: 0;
 }
 
 .work-image-in {
   position: relative;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 100%;
+  min-width: 0;
 }
 
 .work-link {
@@ -229,8 +237,9 @@
 
 .work-image img {
   max-width: 100%;
-  max-height: 400px;
+  max-height: 350px;
   border-radius: 8px;
+  object-fit: contain;
 }
 
 /* ── Responsive ── */
@@ -284,6 +293,10 @@
     width: 100%;
   }
 
+  .work-image {
+    justify-content: center;
+  }
+
   .carousel-arrow {
     width: 40px;
     height: 40px;
@@ -327,5 +340,9 @@
 
   .work-image img {
     max-height: 250px;
+  }
+
+  .work-image {
+    justify-content: center;
   }
 }
